@@ -1,4 +1,4 @@
-# Voorbeeldmodule
+# Programmeren met JavaScript
 
 <!-- Deze regel niet wijzigen! -->
 *Versie {{ versie }}. Jouw docent: {{ docent }} ({{ docent_email }})*

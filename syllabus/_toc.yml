@@ -5,8 +5,6 @@
 format: jb-book
 root: index
 options:
-  numbered: true
+  numbered: false
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: default
