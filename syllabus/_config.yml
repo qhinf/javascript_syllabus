@@ -2,6 +2,8 @@
 # https://jupyterbook.org/customize/config.html
 
 title: Programmeren met JavaScript
+logo: assets/javascript-logo.png
+accent_color: "#CDB819"
 
 # Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
 # basis van de commitgeschiedenis.
