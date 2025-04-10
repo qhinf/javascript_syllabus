@@ -5,7 +5,7 @@
 Welkom bij de module over javascript. Javascript is de meestgebruikte programmeertaal in 2023. Waarom dat zo is?
 Javascript is ingebouwd in elke webbrowser. Sommige PC apps worden gemaakt in Javascript. Het is onderdeel van veel mobiele apps. Het wordt gebruikt in de back-end "de cloud", om verzoeken van webbrowsers en apps af te handelen.
 
-Je docent is Merijn Vogel, als docent een eetje een noob, maar zeer ervaren als software ontwikkelaar.
+Je docent is Merijn Vogel, als docent een beetje een noob, maar zeer ervaren als software ontwikkelaar.
 
 # Kennismaken met javascript
 
@@ -43,9 +43,9 @@ Bestanden:
 - `style.css` is voor de styling van de HTML (als je de module *HTML en CSS* hebt gedaan komt dit je waarschijnlijk bekend voor).
 
 Bewerken van dit soort bestanden doe je met een code-editor (en zeker niet met Word!).
-Bijvoorbeeld `notepad++`  of een "echte" programmeeromgeving zoals Visual Studio Code (en die is zelf geschreven in ... Javascript).
+Bijvoorbeeld `notepad++` . Gebruik voor deze module liever geen "echte" programmeeromgeving zoals Visual Studio Code. Een dergelijke programmeeromgeving is zo erg behulpzaam dat het lastig wordt.
 
-HTML:
+Voorbeeld HTML:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -70,7 +70,7 @@ HTML:
 </html>
 ```
 
-CSS:
+Voorbeeld CSS:
 ```css
 :root {
   /* (almost) all elements display a sans-serif font */
@@ -81,15 +81,6 @@ h1 {
 	color: grey;
 }
 ```
-
-#### NodeJS: de moderne manier van Javascript (ook geschikt voor niet-web toepassingen)
-
-Installatie: https://nodejs.dev/en/learn/how-to-install-nodejs/
-Leren via:  https://nodejs.dev/en/learn/
-
-NodeJS is een generieke programmeeromgeving met Javascript. Net zoals bij python kun je een bestand maken en uitvoeren met NodeJS.
-
-Bewerken van bestanden met computer code doe je met een code-editor (en zeker niet met Word!). Bijvoorbeeld `notepad++`  of een volledige programmeeromgeving zoals Visual Studio Code (en die is zelf geschreven in ... Javascript).
 
 #### Anders, namelijk...
 
@@ -249,8 +240,127 @@ Dit kan bijvoorbeeld iets zijn als: de invoer van namen of teams en daaruit een 
 
 Natuurlijk is het internet een goede hulpbron; maar je maakt je werk wel zelf. Als je een tutorial volgt, geef duidelijk aan welke tutorial dat is. Dat maakt het mogelijk om bij het nakijken te zien wat je eigen inbreng is. De reden dat we willen dat je het _persoonlijk_ maakt, heeft hiermee ook te maken.
 
+Dat geldt ook voor het gebruik van chat-bots. Je kunt ChatGPT heel veel laten doen voor je, maar dan leer je het zelf niet! Natuurlijk werkt jullie docent dagelijks met chatbots samen, maar dat is wel na 20+ jaar alles zelf doen!
+
+Dus als je een chatbot gebruikt, houdt dan ajb bij wat je vraag was, wat de reactie was en _waarom_ dat een goed idee is (of juist niet).
+
+## Wat ga je maken
+
+Maak een digitaal huisdiertje. Zorg ervoor dat het bij jou past, of bij jullie docent. Of misschien juist een monstertje is!
+
+- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
+- Je kunt die stats beinvloeden met acties
+- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
+
+## Startpakket (ja, met dank aan ChatGPT)
+
+Let op dat dit startpakket natuurlijk niet volledig is!
+Personaliseer het dier naar hartelust!
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Digital Pet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Digital Pet</h1>
+
+    <div class="pet-area">
+      <img src="pet-happy.png" alt="Digital Pet" id="pet-image">
+      <p id="pet-message">I'm feeling great!</p>
+    </div>
+
+    <div class="stats">
+      <div>Hunger: <span id="hunger">5</span></div>
+      <div>Happiness: <span id="happiness">5</span></div>
+      <div>Energy: <span id="energy">5</span></div>
+    </div>
+
+    <div class="actions">
+      <button id="feed-btn">🍕 Feed</button>
+      <button id="play-btn">🎾 Play</button>
+      <button id="sleep-btn">💤 Sleep</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+```css
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.pet-area {
+  margin: 1.5rem 0;
+}
+
+.pet-area img {
+  width: 150px;
+  height: auto;
+}
+
+.stats {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.stats div {
+  margin: 0.5rem 0;
+}
+
+.actions button {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #87cefa;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.actions button:hover {
+  background-color: #4682b4;
+}
+
+```
+
+Het bestand `script.js` maak je zelf, dat is namelijk waar jij in actie komt!
+
+Veel plezier
+
 
 ## Inleveren
+
+- Maak een map met je naam erin als naam.
+- Maak van die map een zip-bestandje
+- Lever het in via https://app.q-highschool.nl/ 
 
 
 ## Beoordeling
@@ -259,8 +369,12 @@ Het gaat om de Javascript en niet zozeer om de HTML en CSS. Een leuk uiterlijk i
 
 * Werk netjes, dus evenveel inspringen overal, gebruik code conventies of in elk geval doe steeds hetzelfde
 * Geef functies en variabelen duidelijke namen. 
-* Voorkom herhalingen; schrijf je 2x hetzelfde of copy/paste, 
+* Voorkom herhalingen; schrijf je niet meerdere keren hetzelfde of copy/paste, maar gebruikt loops en functies.
 * Probeer grote stukken programma op te breken in kleinere stukken door functies te gebruiken. Wat "groot" is verschilt soms.
+
+
+Op "deadline-donderdag" plan ik gesprekjes met jullie in. Dat kan de deadline-donderdag zelf zijn, of de uitstel-deadline-donderdag.
+In een kort gesprekje kun je uitleggen wat je hebt gemaakt en waarom je bepaalde keuzes hebt gemaakt. Komen die dagen je niet uit, dan kunnen we in overleg een andere dag afspreken, zolang dat maar voor de deadline ligt!
 
 
 # Enkele vreemde dingen  in Javascript

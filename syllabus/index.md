@@ -17,16 +17,12 @@ Wat ga je leren? Aan het eind van deze module kun je ...
 
 ## Wat gaan jullie maken?
 
-Jullie gaan een digitaal huisdiertje maken. Maak een persoonlijk fantasiedier dat bij jou past, of waarvan je denkt dat het bij de docent past. Wees origineel.
-
-- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
-- Je kunt die stats beinvloeden met acties
-- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
-
+Jullie gaan een digitaal huisdiertje maken. Maak een persoonlijk fantasiedier dat bij jou past, of waarvan je denkt dat het bij de docent past. Wees origineel. Zie verder de sectie over de eindopdracht hieronder.
 
 ## Hoe ga je te werk?
 
-Je begint met mijn "startpakket", dat is een bestand met HTML en CSS en een leeg javascript-bestand.
+Zie [De eindopdracht]
+
 
 ## Hoe werkt de beoordeling
 
