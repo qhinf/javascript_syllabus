@@ -3,18 +3,44 @@
 <!-- Deze regel niet wijzigen! -->
 *Versie {{ versie }}. Jouw docent: {{ docent }} ({{ docent_email }})*
 
-Welkom bij deze voorbeeldmodule! Introdingetjes. Waar gaat deze module überhaupt over? En waarom zou dat interessant zijn? Lorem ipsum dolor sit amet. Jupiter deus est, in Olympo habitat.
+Welkom bij deze module over JavaScript, de belangrijkste programmeertaal van het hele internet! JavaScript wordt door bijna elke site gebruikt voor alle interacties.
 
-Als er voorkennis nodig is voor deze module, dan is het handig om die hier ook even te benoemen. Voor deze syllabi ga ik ervan uit dat je een werkende Python installatie hebt (waarschijnlijk heb je er meerdere) en dat je die ook kunt vinden.
+Deze module gaat er vanuit dat je al iets weet van programmeertalen en programmeren. De module *Basis van programmeren in Python* is daarom heel handige voorkennis. 
 
 Wat ga je leren? Aan het eind van deze module kun je ...
 
-- iets gebruiken om een of ander doel te bereiken.
-- uitleggen hoe iets werkt.
+- javascript gebruiken om html te veranderen
+- goed gebruik maken van functies voor een net resultaat
 
-Dan nog enkele woorden over het eindresultaat. Wat gaan de leerlingen uiteindelijk maken of bereiken? En waar worden ze grofweg op beoordeeld?
 
-En tot slot, enkele belangrijke data:
+# De eindopdracht
+
+## Wat gaan jullie maken?
+
+Jullie gaan een digitaal huisdiertje maken. Maak een persoonlijk fantasiedier dat bij jou past, of waarvan je denkt dat het bij de docent past. Wees origineel.
+
+- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
+- Je kunt die stats beinvloeden met acties
+- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
+
+
+## Hoe ga je te werk?
+
+Je begint met mijn "startpakket", dat is een bestand met HTML en CSS en een leeg javascript-bestand.
+
+## Hoe werkt de beoordeling
+
+De beoordeling kent punten toe aan:
+
+- Werkt het? 
+- Is de code netjes (gebruik je goede namen voor functies en variabelen)
+- Gebruik van 'abstracties'. Dat zijn o.a. functies en loops om de code compact en leesbaar te houden.
+
+
+De docent kijkt de javascript na, maar gaat ook met iedereen een gesprekje aan over het gemaakte werk. Daarin leg je uit hoe je hebt gewerkt en waarom je bepaalde keuzes hebt gemaakt. De docent en jij spreken deze gesprekjes af voor de laatste week, deze vinden in principe plaats op de inlever-deadline-dagen.
+
+
+# En tot slot, enkele belangrijke data:
 
 - Deadline voor het inleveren van de eindopdracht: **{{ deadline }}**
 - Deadline voor het aanvragen van uitstel: **{{ deadline_uitstel_aanvragen }}**
