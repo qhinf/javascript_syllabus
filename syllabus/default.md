@@ -45,42 +45,8 @@ Bestanden:
 Bewerken van dit soort bestanden doe je met een code-editor (en zeker niet met Word!).
 Bijvoorbeeld `notepad++` . Gebruik voor deze module liever geen "echte" programmeeromgeving zoals Visual Studio Code. Een dergelijke programmeeromgeving is zo erg behulpzaam dat het lastig wordt.
 
-Voorbeeld HTML:
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-   <meta charset="utf-8">
-   <title>Sammy the Shark</title>
-   <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-	  <h1>Q-hi! Dit is een voorbeeldbestand</h1>
 
-	  <div id="output"></div>
-
-	  <script>
-		  // Typ hier je javascript.
-		  let out = document.getElementById("output");
-		  out.innerHTML = "Deze tekst komt uit javascript.";
-
-		  console.log("Druk op F12 en kies daar Console om dit te zien");
-	  </script>
-  </body>
-</html>
-```
-
-Voorbeeld CSS:
-```css
-:root {
-  /* (almost) all elements display a sans-serif font */
-  font-family: sans-serif;
-}
-
-h1 {
-	color: grey;
-}
-```
+Zie het 'startpakket' bij de eindopdracht.
 
 #### Anders, namelijk...
 
@@ -291,7 +257,9 @@ Personaliseer het dier naar hartelust!
   <script src="script.js"></script>
 </body>
 </html>
+```
 
+En een startpunt voor CSS:
 
 ```css
 body {
@@ -353,12 +321,12 @@ body {
 
 Het bestand `script.js` maak je zelf, dat is namelijk waar jij in actie komt!
 
-Veel plezier
+Veel plezier!
 
 
 ## Inleveren
 
-- Maak een map met je naam erin als naam.
+- Maak een map met je naam erin als naam. (bijvoorbeeld `merijnvogel-js2025`)
 - Maak van die map een zip-bestandje
 - Lever het in via https://app.q-highschool.nl/ 
 
