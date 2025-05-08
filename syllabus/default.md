@@ -195,12 +195,13 @@ Let op: De eigenschappen van een class die je binnen de _method_ benadert, moet 
 
 # De eindopdracht
 
-## Wat ga je maken?
+## Wat ga je maken
 
-Maak "iets" in Javascript en maak dat persoonlijk. Dat is nogal een brede opdracht.
+Maak een digitaal huisdiertje. Zorg ervoor dat het bij jou past, of bij jullie docent. Of misschien juist een monstertje is!
 
-Voor blok 4 in 2022-2023 is het thema hiervoor sport (in de ruimste zin van het woord).
-Dit kan bijvoorbeeld iets zijn als: de invoer van namen of teams en daaruit een wedstrijdschema maken.
+- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
+- Je kunt die stats beinvloeden met acties
+- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
 
 ## Inspiratie en code "lenen" 
 
@@ -210,13 +211,7 @@ Dat geldt ook voor het gebruik van chat-bots. Je kunt ChatGPT heel veel laten do
 
 Dus als je een chatbot gebruikt, houdt dan ajb bij wat je vraag was, wat de reactie was en _waarom_ dat een goed idee is (of juist niet).
 
-## Wat ga je maken
 
-Maak een digitaal huisdiertje. Zorg ervoor dat het bij jou past, of bij jullie docent. Of misschien juist een monstertje is!
-
-- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
-- Je kunt die stats beinvloeden met acties
-- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
 
 ## Startpakket (ja, met dank aan ChatGPT)
 
