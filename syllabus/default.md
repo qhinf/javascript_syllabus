@@ -193,15 +193,11 @@ console.log(pieter.describe());
 
 Let op: De eigenschappen van een class die je binnen de _method_ benadert, moet je benaderen via `this`. 
 
-# De eindopdracht
+# De eindopdracht (2026, blok 4)
 
 ## Wat ga je maken
 
-Maak een digitaal huisdiertje. Zorg ervoor dat het bij jou past, of bij jullie docent. Of misschien juist een monstertje is!
-
-- Je diertje heeft minimaal 4 stats, zoals hoe blij die is, hoe moe, etc.
-- Je kunt die stats beinvloeden met acties
-- Er mag iets van willekeur in zitten bij die acties om het spannender te maken
+We maken varianten op boter, kaas en eieren (tic-tac-toe in het Engels)
 
 ## Inspiratie en code "lenen" 
 
@@ -211,110 +207,111 @@ Dat geldt ook voor het gebruik van chat-bots. Je kunt ChatGPT heel veel laten do
 
 Dus als je een chatbot gebruikt, houdt dan ajb bij wat je vraag was, wat de reactie was en _waarom_ dat een goed idee is (of juist niet).
 
+## Bespreking
+
+Je moet je werk helemaal kunnen uitleggen. Er komt aan het eind van het blok een moment waarop je met de docent het werk bespreekt. In dat gesprekje geef je een demo, geef je een rondleiding door de code en stelt de docent vragen over de code. Je moet elke regel kunnen uitleggen.
 
 
-## Startpakket (ja, met dank aan ChatGPT)
+## boter-kaas-eieren-extended
 
-Let op dat dit startpakket natuurlijk niet volledig is!
-Personaliseer het dier naar hartelust!
+Gegeven de start-html van dit pakket, maak een spel dat lijkt op boter-kaas en eieren.
 
+Maar... er zijn wat uitbreidingen nodig:
+
+Verplicht:
+- Maak het bord groter dan 3x3
+- Je speelt tegen een computerspeler: maak een simpele tegenspeler
+
+Optioneel:
+- Elke N beurten (laat te speler bij start N kiezen) komt er een RANDOM X of O in het veld op een lege plek
+- Laat de gebruiker kiezen hoe groot het veld is (tot een max van 8x8 oid)
+
+
+# Startpakket
+
+Kopieer de inhoud van dit startpakket naar bestanden op je computer.
+
+**HTML (index.html):**
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Digital Pet</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>My Digital Pet</h1>
-
-    <div class="pet-area">
-      <img src="pet-happy.png" alt="Digital Pet" id="pet-image">
-      <p id="pet-message">I'm feeling great!</p>
+    <h1>Tic Tac Toe</h1>
+    <div class="status" id="status">Player X's turn</div>
+    <div class="board" id="board">
+        <div class="cell" id="r1c1"></div>
+        <div class="cell" id="r1c2"></div>
+        <div class="cell" id="r1c3"></div>
+        <div class="cell" id="r2c1"></div>
+        <div class="cell" id="r2c2"></div>
+        <div class="cell" id="r2c3"></div>
+        <div class="cell" id="r3c1"></div>
+        <div class="cell" id="r3c2"></div>
+        <div class="cell" id="r3c3"></div>
     </div>
-
-    <div class="stats">
-      <div>Hunger: <span id="hunger">5</span></div>
-      <div>Happiness: <span id="happiness">5</span></div>
-      <div>Energy: <span id="energy">5</span></div>
-    </div>
-
-    <div class="actions">
-      <button id="feed-btn">🍕 Feed</button>
-      <button id="play-btn">🎾 Play</button>
-      <button id="sleep-btn">💤 Sleep</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
 ```
 
-En een startpunt voor CSS:
+**CSS (style.css):**
 
 ```css
 body {
-  font-family: 'Arial', sans-serif;
-  background: #f0f8ff;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
-.container {
-  text-align: center;
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  width: 90%;
-  max-width: 400px;
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
 }
 
-.pet-area {
-  margin: 1.5rem 0;
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.pet-area img {
-  width: 150px;
-  height: auto;
+.status {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.stats {
-  margin: 1rem 0;
-  font-size: 1.1rem;
+h1 {
+    color: #2c3e50;
 }
+```
 
-.stats div {
-  margin: 0.5rem 0;
-}
 
-.actions button {
-  font-size: 1.1rem;
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #87cefa;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
+**JavaScript (script.js)**
 
-.actions button:hover {
-  background-color: #4682b4;
-}
+```javascript
+// Jouw javascript hier
 
 ```
 
-Het bestand `script.js` maak je zelf, dat is namelijk waar jij in actie komt!
 
 Veel plezier!
 
