@@ -7,4 +7,6 @@ root: index
 options:
   numbered: false
 chapters:
-- file: default
+- file: chapter1
+- file: chapter2
+- file: chapter3
