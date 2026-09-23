@@ -69,8 +69,6 @@ Voorbeelden van vragen (maar ik verzin er uiteraard meer!):
 - "Hoe weet je script of er genoeg ingrediënten zijn voor een recept? Leg de loop (lus) uit die je gebruikt."
 - "Als ik de 'Glitch' wil veranderen zodat er twee ingrediënten tegelijk verdwijnen, welke regel code moet ik dan aanpassen?"
 
-Als je de logica achter je Array en je Loops niet kunt uitleggen, is het project niet gehaald.
-
 ### 🏆 Bonus Uitdagingen
 
 - Rarity: Maak sommige ingrediënten zeldzamer dan andere (bijv. 10% kans op een "stoofpeer").
