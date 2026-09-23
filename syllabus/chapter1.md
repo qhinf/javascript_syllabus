@@ -4,34 +4,42 @@ Welkom in de wereld van programmeren! In dit hoofdstuk gaan we kennismaken met e
 
 ### Waarom is JavaScript zo belangrijk?
 
-Als je het internet opgaat, kom je JavaScript overal tegen. Het is een van de meest veelzijdige en populaire programmeertalen ter wereld. Waar HTML zorgt voor de structuur van een website (de tekst en de koppen) en CSS zorgt voor de vormgeving (de kleuren en de lay-out), is JavaScript verantwoordelijk voor de **interactiviteit**. Zonder JavaScript zou het internet een stuk saaier zijn; het is de "motor" die ervoor zorgt dat dingen echt gebeuren.
+Als je het internet opgaat, kom je JavaScript overal tegen. Het is een van de meest veelzijdige en populaire programmeertalen ter wereld.
 
-### JavaScript in je broekzak en je browser
+Web-pagina's zijn opgebouwd met de drie talen HTML, CSS en JavaScript:
 
-Het unieke aan JavaScript is dat het direct in je webbrowser (zoals Chrome, Safari of Firefox) draait. Dit betekent dat het razendsnel kan reageren op wat jij doet, zonder dat de hele pagina steeds opnieuw hoeft te laden. 
+- HTML zorgt voor de structuur van een website, de tekst en de koppen, de indeling in blokken.
+- CSS zorgt voor de vormgeving,lettertypes, kleuren, wat op welke plek terecht komt etc.
+- JavaScript is verantwoordelijk voor de **interactiviteit**, dat betekent: reageren op wat een gebruiker doet. Bijvoorbeeld reageren op taps en clicks door het ophalen van gegevens van een backend of in een spel het doen wat je verwacht.
 
-Maar JavaScript wordt tegenwoordig voor veel meer gebruikt dan alleen simpele websites. Veel van de apps die je dagelijks gebruikt, zijn gebouwd met behulp van JavaScript. Denk bijvoorbeeld aan:
+### JavaScript, html en css zijn overal
 
-* **Sociale Media:** De interactieve feeds op platforms zoals Facebook en Instagram.
-* **Streamingdiensten:** De interface en de slimme suggesties van Netflix of Spotify.
-* **Web-apps:** Complexe tools zoals Google Maps, waarbij de kaart vloeiend beweegt terwijl je sleept.
-* **Mobiele Apps:** Veel apps op je smartphone zijn zelfs gemaakt met JavaScript-technieken.
-* **Games:** Je kunt tegenwoordig verrassend geavanceerde games direct in je browser spelen.
+Van laptops, pcs tot telefoons en horloges (en koelkasten...); het zijn computers waar apps op werken, en die apps willen dingen laten zien aan jou (vaak advertenties... :skull:).
 
-Kortom: als je wilt leren hoe je de digitale wereld van vandaag (en morgen!) kunt bouwen, dan is JavaScript de perfecte plek om te beginnen.
+Het is zo normaal voor ons dat dit werkt, dat het lastig is voor te stellen dat er een wereld was zonder.
+
+In deze module gaan we kennismaken met het **hoe** van deze wereld. 
 
 ### De geschiedenis van JavaScript
 
 Ben je nieuwsgierig naar hoe JavaScript is ontstaan? De taal heeft een interessante reis achter de rug, van een klein project in de jaren '90 tot de wereldmacht die het nu is. Als je meer wilt weten over de evolutie van de taal, kun je de geschiedenis bekijken op [W3Schools](https://www.w3schools.com/js/js_history.asp).
 
+
+### JavaScript leren via een website
+
+Een van de beste resources om javascript te leren is w3schools: https://www.w3schools.com/js/js_intro.asp
+
+
+
 ## Programmeren in het tijdperk van AI
 
-In het huidige tijdperk van Kunstmatige Intelligentie (AI) is alleen leren hoe je programma's moet schrijven niet meer voldoende. Moderne software engineers gebruiken tegenwoordig AI-tools om code te genereren, maar het belangrijkste onderdeel is het kunnen begrijpen en kritisch beoordelen van de geproduceerde code.
+In het huidige tijdperk van Kunstmatige Intelligentie (AI) is alleen leren hoe je programma's moet schrijven niet meer voldoende. Software engineers gebruiken tegenwoordig AI-tools om code te genereren. Het belangrijkste onderdeel van dat werk is daarom het kunnen begrijpen en beoordelen van de geproduceerde broncode. (AI-ception: we laten AI helpen met het kijken naar code...)
 
-Daarom zal deze cursus een iets andere aanpak hebben. In plaats van direct te beginnen met het schrijven van volledige programma's, gaan we ons eerst concentreren op de basis van het begrijpen van code. We gaan leren:
+In plaats van direct te beginnen met het schrijven van stukjes javascript, gaan we ons eerst concentreren op de basis van het begrijpen van code. We gaan leren:
 
-* **JavaScript lezen:** Het begrijpen van wat een stuk code daadwerkelijk doet.
+* **JavaScript lezen en erover praten:** Hoe noemen we alle elementen van een programmeertaal zoals javascript
 * **Gaten invullen:** Het logisch kunnen aanvullen van ontbrekende delen in een programma.
 * **Debuggen:** Het opsporen en oplossen van fouten in bestaande code.
 
 
+[chapter2.md](chapter2.md)
