@@ -1,9 +1,6 @@
-# Javascript en de browser
+# Hoofdstuk 3: Javascript en de browser (en Object)
 
 In je browser kun je Javascript gebruiken via de `console`; maar dat is een beetje "flauw"... we willen eigenlijk websites in beweging brengen!
-
-Met dank aan AI:
-
 
 Wil je zelf expermenteren, maak een mapje aan op je laptop/computer en copy-paste deze stukjes code:
 (PS let op dat windows niet zelfs een bestands-extensie toevoegt, als je 'new text document' kiest, maakt windows er `.txt` van; vraag AI om uitleg hoe je dat fixt)
@@ -117,7 +114,7 @@ Je ziet vaak een `.` staan; dit zijn `Object`s in Javascript.
 Een object is een opslag van `eigenschappen`. Een `eigenschap` heeft een naam, en een waarde.
 
 
-# Object
+## Object
 
 Een object slaat een *waarde* op bij een *sleutel*, zodat je die terug kunt halen. Dit noemen we in Javascript *eigenschappen* (**properties** in het Engels).
 
@@ -144,7 +141,7 @@ console.log("leeftijd als die al is jarig geweest op 12 september: " + (2026 - d
 
 
 
-# De DOM / de browser
+## De DOM / de browser
 
 Laten we even inzoomen op de eerste regel van de voorbeeldcode:
 
@@ -165,6 +162,6 @@ Het resultaat van die functie is een object. Dat object heeft eigenschappen die 
 
 
 
-[1]: Je kunt natuurlijk de fout maken een id te hergebruiken, dat mag officieel niet, maar browsers doen toch hun best een pagina met zulke fouten weer te geven; daardoor zie je programmeerfouten in html gauw over het hoofd.
+> [1]: Je kunt natuurlijk de fout maken en een id twee keer gebruiken. Dat mag officieel niet, maar browsers doen toch hun best een pagina met zulke fouten weer te geven; daardoor zie je programmeerfouten in html gauw over het hoofd.
 
-[2]: een **functie** die ook een **property** is, heet in Javascript ook wel een **method**. Je hoeft zelf geen objecten te maken met functies erin voor deze module, al zal ik het in een demonstratie wel een keer laten zien.
+> [2]: een **functie** die ook een **property** is, heet in Javascript ook wel een **method**. Je hoeft zelf geen objecten te maken met functies erin voor deze module, al zal ik het in een demonstratie wel een keer laten zien.
