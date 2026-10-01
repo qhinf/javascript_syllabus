@@ -54,11 +54,11 @@ sphinx:
     # een volgende editie.
     myst_substitutions:
       versie: "Globaal afgehandeld. Niet wijzigen."
-      deadline: "donderdag 6 juni, 16:00"
-      deadline_uitstel_aanvragen: "maandag 27 mei, 16:00"
-      deadline_uitstel: "dinsdag 25 juni, 16:00"
+      deadline: "woensdag 3 november 2026, 16:00"
+      deadline_uitstel_aanvragen: "woensdag 28 oktober, 16:00"
+      deadline_uitstel: "woensdag 9 december, 16:00"
       docent: "Merijn Vogel"
-      docent_email: "m punt vogel apenstaartje quadraam punt nl"
+      docent_email: "m.vogel@quadraam.nl"
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
